@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/bg-top.svg)no-repeat right top,url(./images/bg-bottom.svg)no-repeat;
+    background-color: rgb(228, 228, 213);
+    
+}
+.FirstColumn{
+    box-shadow: -3px 2px 10px -4px rgba(0,0,0,1);
+-webkit-box-shadow: -3px 2px 10px -4px rgba(0,0,0,1);
+-moz-box-shadow: -3px 2px 10px -4px rgba(0,0,0,1);
+position: absolute;
+top: 14pc;
+height: 23pc;
+width: 15pc;
+left: 20pc;
+background-color: aliceblue;
+}
+.SecondColumn{
+    box-shadow: -3px 2px 10px -4px rgba(0,0,0,1);
+    -webkit-box-shadow: -3px 2px 10px -4px rgba(0,0,0,1);
+    -moz-box-shadow: -3px 2px 10px -4px rgba(0,0,0,1);
+    position: absolute;
+    height: 23pc;
+    width: 15pc;
+    left: 51pc;
+    top: 14pc;
+    background-color: aliceblue;
+}
+.ThirdColumn{
+    box-shadow: -3px 2px 10px -4px rgba(0,0,0,1);
+-webkit-box-shadow: -3px 2px 10px -4px rgba(0,0,0,1);
+-moz-box-shadow: -3px 2px 10px -4px rgba(0,0,0,1);
+width: 18pc;
+height: 26pc;
+position: absolute;
+left:34pc;
+top :12pc;
+background-color: hsl(234, 34%, 64%)
+}
+.MainWord{
+    color: hsl(234, 34%, 64%) ;
+    position: absolute;
+    top: 3pc ;
+    left:38pc ;
+}
+.box{
+    width: 80px;
+    height: 20px;
+    background-color: rgb(143, 147, 182);
+    border-radius: 30px;
+    position: relative;
+}
+.box:hover .switch{
+    margin-left: 60px;
+}
+.switch{
+   
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: .4s;
+}
+.OnOff{
+   
+    display: flex;    
+  position: absolute;
+  top :6pc;
+  left: 36pc;
+}
+.border{
+    width: 100%;
+    border-bottom: 2px solid rgb(230, 223, 223);
+    position: absolute;
+    top:7pc;
+    margin: auto;
+}
+.borderOne{
+    width: 100%;
+    border-bottom: 2px solid rgb(230, 223, 223);
+    position: absolute;
+    top:10pc;
+    margin: auto;
+}
+.borderTwo{
+    width: 100%;
+    border-bottom: 2px solid rgb(230, 223, 223);
+    position: absolute;
+    top:13pc;
+    margin: auto;
+}
+.borderThird{
+    width: 100%;
+    border-bottom: 2px solid rgb(230, 223, 223);
+    position: absolute;
+    top:16pc;
+    margin: auto;
+}
+
+.btn{
+    height: 3pc;
+    width: 20pc;
+    border: solid rgb(160, 158, 158);
+    position: absolute;
+    top: 17pc;
+    width: 100%;
+}
